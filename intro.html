@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Carbon Emission Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('background.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            transition: background 0.3s;
+        }
+        .navbar a:hover {
+            background: #28a745;
+            border-radius: 5px;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin-top: 80px; /* Pushes content below navbar */
+        }
+        h1 {
+            font-size: 2em;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        a.start-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a.start-btn:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="intro.html">Intro</a>
+        <a href="about.html">About</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="info.html">Other Info</a>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to the Carbon Emission Calculator</h1>
+        <p>Find out your annual carbon footprint and get tips on how to reduce it.</p>
+        <img src="your-logo.png" alt="Carbon Emission Logo"> <!-- Placeholder for Image -->
+        <br>
+        <a href="calculator.html" class="start-btn">Start Calculating</a>
+    </div>
+
+</body>
+</html>
